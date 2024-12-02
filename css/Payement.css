@@ -1,0 +1,112 @@
+body{
+
+    background-color: #eee;
+}
+
+
+@media (max-width: 991.98px) {
+    .container1{
+        height: 75vh;
+    }
+     }
+
+.card{
+    border:none;
+}
+
+.form-control {
+    border-bottom: 2px solid #eee !important;
+    border: none;
+    font-weight: 600
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #072A19 !important;
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s
+}
+
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #072A19 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px
+}
+
+.card-blue{
+
+    background-color: rgb(17, 90, 47) ;
+}
+
+.hightlight{
+
+    background-color: rgb(27, 116, 64) ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.yellow{
+
+    color: #fdcc49; 
+}
+
+.decoration{
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgb(43, 180, 100) 492bc4;
+    border-color:rgb(43, 180, 100) ;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color:rgb(43, 180, 100) ;
+    border-color: rgb(43, 180, 100) ;
+}
+
+
+.decoration:hover{
+
+    text-decoration: none;
+    color: #fdcc49; 
+}
